@@ -7,7 +7,7 @@
 npm i
 npm run dev
 ```
-## You Learn:
+## You Learn:.
 + react js hooks
 + folder structure
 + tailwind css
