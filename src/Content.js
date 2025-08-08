@@ -77,7 +77,7 @@ export const content = {
     title: "Full-Stack Developer",
     firstName: "Udayraj",
     LastName: "Ghorpade",
-    btnText: "Hire Me",
+    btnText: "Open to Work",
     image: Hero_person,
     hero_content: [
       {
