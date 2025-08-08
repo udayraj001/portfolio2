@@ -22,7 +22,7 @@ import java from "./assets/images/Skills/java.png";
 import jira from "./assets/images/Skills/jira-original.png";
 import nextjs from "./assets/images/Skills/nextjs.png";
 import nodejs from "./assets/images/Skills/node.png";
-
+import mysql from "./assets/images/Skills/mysql.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -97,108 +97,111 @@ export const content = {
       {
         name: "React Js",
         para: "",
-        logo: figma,
+        logo: react,
       },
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
-        logo: aws,
+        logo: nodejs,
       },
       {
         name: "Next js",
         para: "Lorem ipsum text  dummy",
-        logo: bootstrap,
+        logo: nextjs,
       },
       {
         name: "TypeScript",
         para: "Lorem ipsum text  dummy",
-        logo: c,
+        logo: typescript,
       },
       {
         name: "Mysql",
         para: "Lorem ipsum text  dummy",
-        logo: cockroach,
+        logo: mysql,
+      },
+        {
+        name: "Amazon Web Services",
+        para: "Lorem ipsum text  dummy",
+        logo: aws,
       },
       {
         name: "MongoDB",
         para: "Lorem ipsum text  dummy",
-        logo: cpp,
+        logo: mongodb,
       },
        {
-        name: "MongoDB",
+        name: "Django",
         para: "Lorem ipsum text  dummy",
         logo: django,
       },
        {
-        name: "MongoDB",
+        name: "Docker",
         para: "Lorem ipsum text  dummy",
         logo: docker,
       },
        {
-        name: "MongoDB",
+        name: "Electron Js",
         para: "Lorem ipsum text  dummy",
         logo: electron,
       },
        {
-        name: "MongoDB",
+        name: "Git",
         para: "Lorem ipsum text  dummy",
         logo: git,
       },
        {
-        name: "MongoDB",
+        name: "PostgreSQL",
         para: "Lorem ipsum text  dummy",
         logo: postgresql,
       },
        {
-        name: "MongoDB",
+        name: "Python",
         para: "Lorem ipsum text  dummy",
         logo: python,
       },
        {
-        name: "MongoDB",
+        name: "C",
         para: "Lorem ipsum text  dummy",
-        logo: react,
+        logo: c,
       },
        {
-        name: "MongoDB",
+        name: "TailwindCSS",
         para: "Lorem ipsum text  dummy",
         logo: tailwind,
       },
        {
-        name: "MongoDB",
+        name: "Socket.io",
         para: "Lorem ipsum text  dummy",
         logo: socket,
+      },
+          {
+        name: "Figma",
+        para: "Lorem ipsum text  dummy",
+        logo: figma,
+      },
+          {
+        name: "C++",
+        para: "Lorem ipsum text  dummy",
+        logo: cpp,
       },
 
           {
-        name: "MongoDB",
+        name: "Bootstrap",
         para: "Lorem ipsum text  dummy",
-        logo: mongodb,
+        logo: bootstrap,
       },    {
-        name: "MongoDB",
+        name: "CockroachDB",
         para: "Lorem ipsum text  dummy",
-        logo: typescript,
+        logo: cockroach,
       },    {
-        name: "MongoDB",
+        name: "Java",
         para: "Lorem ipsum text  dummy",
         logo: java,
       },    {
-        name: "MongoDB",
+        name: "Jira",
         para: "Lorem ipsum text  dummy",
         logo: jira,
-      },    {
-        name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
-        logo: nextjs,
-      },    {
-        name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },    {
-        name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
-        logo: socket,
-      },
+      },   
     ],
     icon: MdArrowForward,
   },
