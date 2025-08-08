@@ -2,11 +2,27 @@
 import Hero_person from "./assets/images/Hero/person2.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import aws from "./assets/images/Skills/aws.png";
+import bootstrap from "./assets/images/Skills/bootstrap.png";
+import c from "./assets/images/Skills/c.png";
+import cockroach from "./assets/images/Skills/cockroach.png";
+import cpp from "./assets/images/Skills/cpp.png";
+import django from "./assets/images/Skills/django.png";
+import docker from "./assets/images/Skills/docker.png";
+import electron from "./assets/images/Skills/electron.png";
+import git from "./assets/images/Skills/git.svg";
+import mongodb from "./assets/images/Skills/mongodb.svg";
+import postgresql from "./assets/images/Skills/postgresql.svg";
 import python from "./assets/images/Skills/python.png";
+import react from "./assets/images/Skills/react.png";
+import tailwind from './assets/images/Skills/icon-tailwindcss.svg'
+import socket from "./assets/images/Skills/socket.svg";
+import typescript from "./assets/images/Skills/icon-typescript.svg";
+import java from "./assets/images/Skills/java.png";
+import jira from "./assets/images/Skills/jira-original.png";
+import nextjs from "./assets/images/Skills/nextjs.png";
+import nodejs from "./assets/images/Skills/node.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -58,7 +74,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     firstName: "Udayraj",
     LastName: "Ghorpade",
     btnText: "Hire Me",
@@ -66,7 +82,7 @@ export const content = {
     hero_content: [
       {
         count: "3+",
-        text: "Years of Experinse in Web development",
+        text: "Years of Experinse in Full-Stack development",
       },
       {
         count: "10+",
@@ -79,34 +95,109 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        name: "React Js",
+        para: "",
         logo: figma,
       },
       {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        logo: aws,
       },
       {
-        name: "Adobe Photoshop",
+        name: "Next js",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: bootstrap,
       },
       {
-        name: "React js",
+        name: "TypeScript",
         para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        logo: c,
       },
       {
-        name: "Sketch",
+        name: "Mysql",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: cockroach,
       },
       {
-        name: "Python",
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: cpp,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: django,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: docker,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: electron,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: git,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: postgresql,
+      },
+       {
+        name: "MongoDB",
         para: "Lorem ipsum text  dummy",
         logo: python,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: react,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: tailwind,
+      },
+       {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: socket,
+      },
+
+          {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: mongodb,
+      },    {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: typescript,
+      },    {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: java,
+      },    {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: jira,
+      },    {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: nextjs,
+      },    {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: nodejs,
+      },    {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: socket,
       },
     ],
     icon: MdArrowForward,
