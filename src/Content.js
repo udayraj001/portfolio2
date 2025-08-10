@@ -94,114 +94,117 @@ export const content = {
     title: "Skills",
     subtitle: "MY TOP SKILLS",
     skills_content: [
-      {
-        name: "React Js",
-        para: "",
-        logo: react,
-      },
-      {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Next js",
-        para: "Lorem ipsum text  dummy",
-        logo: nextjs,
-      },
-      {
-        name: "TypeScript",
-        para: "Lorem ipsum text  dummy",
-        logo: typescript,
-      },
-      {
-        name: "Mysql",
-        para: "Lorem ipsum text  dummy",
-        logo: mysql,
-      },
-        {
-        name: "Amazon Web Services",
-        para: "Lorem ipsum text  dummy",
-        logo: aws,
-      },
-      {
-        name: "MongoDB",
-        para: "Lorem ipsum text  dummy",
-        logo: mongodb,
-      },
-       {
-        name: "Django",
-        para: "Lorem ipsum text  dummy",
-        logo: django,
-      },
-       {
-        name: "Docker",
-        para: "Lorem ipsum text  dummy",
-        logo: docker,
-      },
-       {
-        name: "Electron Js",
-        para: "Lorem ipsum text  dummy",
-        logo: electron,
-      },
-       {
-        name: "Git",
-        para: "Lorem ipsum text  dummy",
-        logo: git,
-      },
-       {
-        name: "PostgreSQL",
-        para: "Lorem ipsum text  dummy",
-        logo: postgresql,
-      },
-       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
-      },
-       {
-        name: "C",
-        para: "Lorem ipsum text  dummy",
-        logo: c,
-      },
-       {
-        name: "TailwindCSS",
-        para: "Lorem ipsum text  dummy",
-        logo: tailwind,
-      },
-       {
-        name: "Socket.io",
-        para: "Lorem ipsum text  dummy",
-        logo: socket,
-      },
-          {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
-      },
-          {
-        name: "C++",
-        para: "Lorem ipsum text  dummy",
-        logo: cpp,
-      },
+     {
+  name: "React Js",
+  para: "UI library",
+  logo: react,
+},
+{
+  name: "Node js",
+  para: "Backend runtime",
+  logo: nodejs,
+},
+{
+  name: "Next js",
+  para: "React framework",
+  logo: nextjs,
+},
+{
+  name: "TypeScript",
+  para: "Typed JavaScript",
+  logo: typescript,
+},
+{
+  name: "MySQL",
+  para: "SQL database",
+  logo: mysql,
+},
+{
+  name: "Amazon Web Services",
+  para: "Cloud services",
+  logo: aws,
+},
+{
+  name: "MongoDB",
+  para: "NoSQL database",
+  logo: mongodb,
+},
+{
+  name: "Django",
+  para: "Python framework",
+  logo: django,
+},
+{
+  name: "Docker",
+  para: "App containers",
+  logo: docker,
+},
+{
+  name: "Electron Js",
+  para: "Desktop apps",
+  logo: electron,
+},
+{
+  name: "Git",
+  para: "Version control",
+  logo: git,
+},
+{
+  name: "PostgreSQL",
+  para: "Advanced database",
+  logo: postgresql,
+},
+{
+  name: "Python",
+  para: "Programming language",
+  logo: python,
+},
+{
+  name: "C",
+  para: "System language",
+  logo: c,
+},
+{
+  name: "TailwindCSS",
+  para: "CSS framework",
+  logo: tailwind,
+},
+{
+  name: "Socket.io",
+  para: "Real-time comms",
+  logo: socket,
+},
+{
+  name: "Figma",
+  para: "Design tool",
+  logo: figma,
+},
+{
+  name: "C++",
+  para: "High-performance",
+  logo: cpp,
+},
+{
+  name: "Bootstrap",
+  para: "UI framework",
+  logo: bootstrap,
+},
+{
+  name: "CockroachDB",
+  para: "Distributed SQL",
+  logo: cockroach,
+},
+{
+  name: "Java",
+  para: "OOP language",
+  logo: java,
+},
+{
+  name: "Jira",
+  para: "Project tracking",
+  logo: jira,
+},
 
-          {
-        name: "Bootstrap",
-        para: "Lorem ipsum text  dummy",
-        logo: bootstrap,
-      },    {
-        name: "CockroachDB",
-        para: "Lorem ipsum text  dummy",
-        logo: cockroach,
-      },    {
-        name: "Java",
-        para: "Lorem ipsum text  dummy",
-        logo: java,
-      },    {
-        name: "Jira",
-        para: "Lorem ipsum text  dummy",
-        logo: jira,
-      },   
     ],
     icon: MdArrowForward,
   },
@@ -210,20 +213,21 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
-      },
-      {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
-      },
-      {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
+  title: "Full Stack Development",
+  para: "Building complete web applications from frontend to backend.",
+  logo: services_logo1,
+},
+{
+  title: "Software Development",
+  para: "Designing and developing custom software solutions for your needs.",
+  logo: services_logo2,
+},
+{
+  title: "UI / UX DESIGNING",
+  para: "Creating user-friendly and visually appealing digital experiences.",
+  logo: services_logo3,
+},
+
     ],
   },
   Projects: {
@@ -232,15 +236,27 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Homely (Real-Estate Website)",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Exam AI",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "VictoryCineworld",
+        image: project3,
+      },
+      {
+        title: "MyImaginity",
+        image: project3,
+      },
+      {
+        title: "TheHealingCenter",
+        image: project3,
+      },
+      {
+        title: "Bodhtarot",
         image: project3,
       },
     ],
@@ -253,7 +269,7 @@ export const content = {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "Gaurav Pawar",
       },
       {
         review:

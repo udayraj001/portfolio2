@@ -1,4 +1,5 @@
 import { content } from "../Content";
+import resume from "../../public/UDAYRAJ.pdf"
 
 const Hero = () => {
   const { hero } = content;
@@ -50,7 +51,14 @@ const Hero = () => {
 `}
           </style>
           <br />
-          <button className="btn">{hero.btnText}</button>
+<a 
+  href={resume} // Path to your PDF in the public folder
+  download="Uday_Resume.pdf" // The file name when downloaded
+>
+  <button className="btn bg-dark_primary text-white">
+    {hero.btnText}
+  </button>
+</a>
 
           <div className="flex flex-col gap-6 mt-10">
             {hero.hero_content.map((item, i) => (
