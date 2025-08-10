@@ -223,8 +223,8 @@ export const content = {
   logo: services_logo2,
 },
 {
-  title: "UI / UX DESIGNING",
-  para: "Creating user-friendly and visually appealing digital experiences.",
+  title: "AI / ML Enthusiast",
+  para: "Exploring the future of intelligent systems.",
   logo: services_logo3,
 },
 
