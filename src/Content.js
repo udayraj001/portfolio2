@@ -224,7 +224,7 @@ export const content = {
 },
 {
   title: "AI / ML Enthusiast",
-  para: "Exploring the future of intelligent systems.",
+  para: "Exploring the future of intelligent systems..",
   logo: services_logo3,
 },
 
