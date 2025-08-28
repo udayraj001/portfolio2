@@ -7,13 +7,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
-import { Briefcase, Code, Star } from "lucide-react"; // professional icons
 
 const Projects = () => {
   const { Projects } = content;
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
+        {/* Section Title */}
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
@@ -25,27 +25,36 @@ const Projects = () => {
         </div>
 
         <div className="flex items-center lg:flex-row flex-col gap-10">
-          {/* 🔥 Professional replacement instead of person image */}
+          {/* ✅ Replacement of person image */}
           <div
             data-aos="fade-right"
-            className="flex flex-col justify-center items-start bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white p-8 rounded-3xl shadow-lg w-full lg:w-1/2"
+            className="flex flex-col justify-center items-start bg-white p-8 rounded-3xl shadow-lg border border-gray-200 w-full lg:w-1/2"
           >
-            <h3 className="text-2xl font-bold mb-4">Why My Projects?</h3>
-            <ul className="space-y-3 text-lg">
+            <h3 className="text-2xl font-bold mb-4 text-gray-800">
+              About My Projects
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Each project is built with clean code, modern technologies, and a
+              focus on solving real-world problems. Here’s what makes them
+              special:
+            </p>
+            <ul className="space-y-4 text-gray-700">
               <li className="flex items-center gap-3">
-                <Briefcase className="w-6 h-6" /> Real-world & industry-based
+                <span className="text-xl">📂</span> Real-world & industry-based
                 projects
               </li>
               <li className="flex items-center gap-3">
-                <Code className="w-6 h-6" /> Built with modern web technologies
+                <span className="text-xl">💻</span> Built with React, Tailwind &
+                modern APIs
               </li>
               <li className="flex items-center gap-3">
-                <Star className="w-6 h-6" /> Clean, scalable, and reusable code
+                <span className="text-xl">⚡</span> Optimized for performance &
+                usability
               </li>
             </ul>
           </div>
 
-          {/* 🔥 Bigger Cards Section */}
+          {/* ✅ Projects Swiper (Bigger Cards) */}
           <Swiper
             pagination={{ clickable: true }}
             data-aos="fade-left"
@@ -56,18 +65,23 @@ const Projects = () => {
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
-                className="bg-white rounded-3xl p-6 md:p-8 border-b-8 border-[#FAF9FD] h-fit"
+                className="bg-white rounded-3xl p-6 md:p-8 border border-gray-200 shadow-md h-fit"
               >
+                {/* Project Image */}
                 <img
                   src={content.image}
                   alt={content.title}
                   className="rounded-xl w-full object-cover"
                 />
+
+                {/* Project Content */}
                 <div className="flex flex-col gap-2 mt-4">
-                  <h5 className="font-bold font-Poppins text-lg md:text-xl">
+                  <h5 className="font-bold font-Poppins text-lg md:text-xl text-gray-800">
                     {content.title}
                   </h5>
-                  <div className="flex justify-end gap-4 mt-3">
+
+                  {/* Buttons */}
+                  <div className="flex justify-start gap-4 mt-3">
                     <a
                       href={content.demo_link}
                       target="_blank"
