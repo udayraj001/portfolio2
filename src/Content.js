@@ -28,9 +28,12 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/Projects/img1.png";
+import project1 from "./assets/images/Projects/homely.png";
 import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
+import project3 from "./assets/images/Projects/vcw.png";
+import project4 from "./assets/images/Projects/myimaginity.png";
+import project5 from "./assets/images/Projects/thc.png";
+import project6 from "./assets/images/Projects/bt.png";
 import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -230,37 +233,50 @@ export const content = {
 
     ],
   },
-  Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
-    project_content: [
-      {
-        title: "Homely (Real-Estate Website)",
-        image: project1,
-      },
-      {
-        title: "Exam AI",
-        image: project2,
-      },
-      {
-        title: "VictoryCineworld",
-        image: project3,
-      },
-      {
-        title: "MyImaginity",
-        image: project3,
-      },
-      {
-        title: "TheHealingCenter",
-        image: project3,
-      },
-      {
-        title: "Bodhtarot",
-        image: project3,
-      },
-    ],
-  },
+ Projects: {
+  title: "Projects",
+  subtitle: "MY CREATION",
+  image: person_project,
+  project_content: [
+    {
+      title: "Homely (Real-Estate Website)",
+      image: project1,
+      demo_link: "https://homely-red.vercel.app/",
+      read_more_link: "https://github.com/user/homely",
+    },
+    {
+      title: "Context Management System",
+      image: project2,
+      demo_link: "https://cms-demo.com",
+      read_more_link: "https://github.com/user/cms",
+    },
+    {
+      title: "VictoryCineworld",
+      image: project3,
+      demo_link: "https://victorycineworld.com/",
+      read_more_link: "https://github.com/user/victorycineworld",
+    },
+    {
+      title: "MyImaginity",
+      image: project4,
+      demo_link: "https://www.myimaginity.com/",
+      read_more_link: "https://github.com/user/myimaginity",
+    },
+    {
+      title: "TheHealingCenter",
+      image: project5,
+      demo_link: "https://thehealingcenter.in/",
+      read_more_link: "https://github.com/user/thehealingcenter",
+    },
+    {
+      title: "Bodhtarot",
+      image: project6,
+      demo_link: "https://bodhtarot.com/",
+      read_more_link: "https://github.com/user/bodhtarot",
+    },
+  ],
+},
+
   Testimonials: {
     title: "Testimonials",
     subtitle: "MY CLIENT REVIEWS",
