@@ -49,7 +49,7 @@ const Testimonials = () => {
                 p-8 h-full rounded-2xl flex items-center gap-6
                 border-slate-200 md:flex-row flex-col"
               >
-                <img src={content.img} alt="testimonial" className="h-24 w-24 object-cover rounded-full" />
+                {/* <img src={content.img} alt="testimonial" className="h-24 w-24 object-cover rounded-full" /> */}
 
                 <div>
                   <p className="sm:text-base text-sm">{content.review}</p>
