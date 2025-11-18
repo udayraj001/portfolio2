@@ -77,18 +77,18 @@ export const content = {
     },
   ],
   hero: {
-    title: "Full-Stack Developer",
+    title: "Software Developer",
     firstName: "Udayraj",
     LastName: "Ghorpade",
     btnText: "Open to Work",
     image: Hero_person,
     hero_content: [
       {
-        count: "3+",
-        text: "Years of Experinse in Full-Stack development",
+        count: "6+",
+        text: "Years of Experinse in Software Development development",
       },
       {
-        count: "10+",
+        count: "50+",
         text: "Projects Worked in my career",
       },
     ],
@@ -230,6 +230,12 @@ export const content = {
   para: "Exploring the future of intelligent systems..",
   logo: services_logo3,
 },
+{
+  title: "Custom Software Development",
+  para: "Designing and developing tailored software solutions for businesses and startups.",
+  logo: services_logo1,
+}
+
 
     ],
   },
@@ -283,27 +289,45 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Working with him was incredibly smooth. He built a modern, clean, and elegant website that perfectly showcases my architectural projects. I’ve already started getting more inquiries because clients can now see my work professionally. Highly recommended!”",
         img: avatar1,
         name: "Gaurav Pawar",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I loved the way he designed my portfolio site. The animations, layout, and colours were exactly what I imagined. He also guided me on how to update photos on my own. Overall, very talented and humble developer!”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Sandip Kankal",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I needed a website that looked premium and helped me get more clients. He understood my requirements immediately and delivered a website that was fast, responsive, and trust-building. His work has increased my leads noticeably.”",
         img: avatar3,
-        name: "Johnny",
+        name: "Parth Bhawar",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I loved the way he designed my portfolio site. The animations, layout, and colours were exactly what I imagined. He also guided me on how to update photos on my own. Overall, very talented and humble developer!”",
         img: avatar4,
-        name: "ROBBIN",
+        name: "Jaycy Naveen",
+      },
+         {
+        review:
+          "“I appreciate how quickly he understood my brand. The website he created is clean, user-friendly, and professional. What impressed me most was his attention to detail. I will definitely work with him again.”",
+        img: avatar4,
+        name: "Ashwini Jadhav",
+      },
+        {
+        review:
+          "“I appreciate how quickly he understood my brand. The website he created is clean, user-friendly, and professional. What impressed me most was his attention to detail. I will definitely work with him again.”",
+        img: avatar4,
+        name: "Renuka",
+      },
+       {
+        review:
+          "“My old website was slow and outdated. He redesigned everything, optimized the speed, and set up proper SEO. Now I’m getting more leads organically. Super professional work.”",
+        img: avatar4,
+        name: "Dr. Yogesh",
       },
     ],
   },
@@ -312,7 +336,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "From websites to mobile apps, I create digital products that look great and work even better. If you want reliable work, clear communication, and on-time delivery — I’m ready to build your next project.",
     btnText: "Hire Me",
   },
   Contact: {
